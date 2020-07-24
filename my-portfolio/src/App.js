@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Portfolio from './components/Portfolio'
 
 function App() {
   return (
@@ -67,7 +68,7 @@ function App() {
             </div>
         </section>
         
-        
+        <Portfolio></Portfolio>
         
         <section className="page-section" id="about">
             <div className="container">
