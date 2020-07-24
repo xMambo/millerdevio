@@ -3,8 +3,37 @@ import './App.css';
 import Portfolio from './components/Portfolio'
 
 function App() {
+  const portfolioLinks = [
+    {
+      title: 'Threads',
+      caption: 'Illustration'
+    },
+    {
+      title: 'Explore',
+      caption: 'Graphic Design'
+    }, 
+    {
+      title: 'Finish',
+      caption: 'Identity'
+    },
+    {
+      title: 'Lines',
+      caption: 'Branding'
+    },
+    {
+      title: 'Southwest',
+      caption: 'Website Design'
+    },
+    {
+      title: 'Window',
+      caption: 'Photography'
+    },
+  ]
+
   return (
     <div className="App">
+
+
       
         <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div className="container">
@@ -68,7 +97,7 @@ function App() {
             </div>
         </section>
         
-        <Portfolio></Portfolio>
+        <Portfolio portfolioLinks={portfolioLinks}></Portfolio>
         
         <section className="page-section" id="about">
             <div className="container">
